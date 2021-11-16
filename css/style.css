@@ -1,0 +1,44 @@
+.figure-centre{
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.h2{
+    margin-right: 30px;
+}
+
+div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    height: 50px;
+    width: 50px;    
+}
+
+img {
+    display: block;
+    width: 250px;
+    margin: auto;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid;
+    background-color: transparent;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
